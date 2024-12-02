@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no; X-Content-Type-Options=nosniff"
+    />
+    <title>Intersect Calculation Widget</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.29/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.29/"></script>
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/2.5.1/calcite.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/calcite-components/2.5.1/calcite.css"
+    />
+    <script src="widgetcontroller.js"></script>
+    <script src="widgetview.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
